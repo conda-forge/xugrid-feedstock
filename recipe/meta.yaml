@@ -20,6 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.7
+    - dask
     - numba >=0.50
     - numba_celltree
     - numpy
