@@ -1,5 +1,5 @@
 {% set name = "xugrid" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cd493c880c4fef71af5850a25480266ebb1a7d66403c290775ffaaa0753f6758
+  sha256: a215ba7aad1c7b2f681886bf98c59b31c4d95a16899ca4f69c61cf0a9684da3a
 
 build:
   noarch: python
