@@ -1,5 +1,5 @@
 {% set name = "xugrid" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a215ba7aad1c7b2f681886bf98c59b31c4d95a16899ca4f69c61cf0a9684da3a
+  sha256: c74043ce96e728c148668fd9d0aaeca7f819fa36dae10cc1416757b0a29bb93f
 
 build:
   noarch: python
@@ -28,6 +28,7 @@ requirements:
     - pandas
     - pooch
     - scipy
+    - shapely >=2.0
     - xarray >=0.15
 
 test:

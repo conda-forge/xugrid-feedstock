@@ -154,4 +154,6 @@ Feedstock Maintainers
 =====================
 
 * [@Huite](https://github.com/Huite/)
+* [@JoerivanEngelen](https://github.com/JoerivanEngelen/)
+* [@visr](https://github.com/visr/)
 
