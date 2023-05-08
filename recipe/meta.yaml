@@ -28,6 +28,7 @@ requirements:
     - pandas
     - pooch
     - scipy
+    - shapely >=2.0
     - xarray >=0.15
 
 test:
