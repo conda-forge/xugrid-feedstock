@@ -17,6 +17,7 @@ build:
 requirements:
   host:
     - python >=3.9
+    - hatchling
     - pip
   run:
     - python >=3.9
