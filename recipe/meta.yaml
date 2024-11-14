@@ -52,6 +52,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - deltares-service-account
     - HendrikKok
     - luitjansl
     - Huite
