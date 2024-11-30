@@ -6,21 +6,21 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 50b05e42dc6842a2a474cea685b04fec5a0c92fed0337fa22d4666d5e44dfb10
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - hatchling
     - pip
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - dask
     - geopandas
     - numba >=0.50
@@ -33,6 +33,8 @@ requirements:
     - xarray >=0.15
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - xugrid
 
