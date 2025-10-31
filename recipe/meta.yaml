@@ -55,9 +55,8 @@ about:
 
 extra:
   recipe-maintainers:
-    - deltares-service-account
+    - FMSST
     - HendrikKok
-    - luitjansl
     - Huite
     - JoerivanEngelen
     - visr
