@@ -25,7 +25,7 @@ requirements:
     - dask >=2025.1.0
     - geopandas
     - numba >=0.50
-    - numba_celltree >=0.4.1
+    - numba_celltree >=0.4.2
     - numpy
     - pandas
     - pooch
