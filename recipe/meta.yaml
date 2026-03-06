@@ -1,5 +1,5 @@
 {% set name = "xugrid" %}
-{% set version = "0.14.3" %}
+{% set version = "0.15.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5c9828f71b476b5ef8863a05eafe400d9e857ebd58bf8f06a3f476c8c267af09
+  sha256: 7ca0e19a81d1f5ec9d57f70086c92efdd2efb93943cbb1fab18b293885294ebb
 
 build:
   noarch: python
@@ -25,7 +25,7 @@ requirements:
     - dask >=2025.1.0
     - geopandas
     - numba >=0.50
-    - numba_celltree >=0.4.1
+    - numba_celltree >=0.4.2
     - numpy
     - pandas
     - pooch
